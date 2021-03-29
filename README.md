@@ -2,12 +2,12 @@
 
 Jquery plugin designed to load images with a delay in between, to handle scenarios where loading images too fast would result in rate-limiting issues
 
-# Pre-requisites
+## Pre-requisites
 
 - include JQuery
 - include jquery.lazyrate.js
 
-# Usage
+## Usage
 
 The images you want to lazyrate load, create their markup like this:
 
@@ -26,11 +26,9 @@ The images you want to lazyrate load, create their markup like this:
         });
     </script>
 ```
-# Options
+## Options
 
-
-
-## Delay
+### Delay
 
 Default delay between images loading is 200ms. To change it, specify a value in ms for delay, as shown here
 
