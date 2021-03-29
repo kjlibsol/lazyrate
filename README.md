@@ -26,11 +26,15 @@ The images you want to lazyrate load, create their markup like this:
 ```
 # Options
 
-Default delay between images loading is 200ms
+
 
 ## Delay
 
+Default delay between images loading is 200ms. To change it, specify a value in ms for delay, as shown here
+
+```
             $(".lazyrate").lazyRate({
                 delay: 500 //500ms between each image loading
             });
-  
+```  
+
