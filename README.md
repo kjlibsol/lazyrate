@@ -7,6 +7,8 @@ Jquery plugin designed to load images with a delay in between, to handle scenari
 - include JQuery
 - include jquery.lazyrate.js
 
+# Usage
+
 The images you want to lazyrate load, create their markup like this:
 
 - Leave a placeholder in the src attribute (or leave it out)
