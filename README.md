@@ -2,6 +2,9 @@
 
 Jquery plugin designed to load images with a delay in between, to handle scenarios where loading images too fast would result in rate-limiting issues
 
+![the lazyrate plugin in use](https://raw.githubusercontent.com/kjlibsol/lazyrate/main/demo1.gif)
+
+
 ## Pre-requisites
 
 - include JQuery
