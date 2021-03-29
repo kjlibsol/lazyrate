@@ -12,7 +12,7 @@ The images you want to lazyrate load, create their markup like this:
 - Leave a placeholder in the src attribute (or leave it out)
 - Put the path to the real image in data-src attribute
 - Give the images a class (like lazyrate in this example)
- 
+ ```
 
     <img id="img001" data-src="img/IMG_0032.jpg" src="img/placeholder.png" height="200" class="lazyrate">
     <img id="img002" data-src="img/IMG_0037.jpg" src="img/placeholder.png" height="200" class="lazyrate">
@@ -23,7 +23,7 @@ The images you want to lazyrate load, create their markup like this:
             $(".lazyrate").lazyRate();
         });
     </script>
-
+```
 # Options
 
 Default delay between images loading is 200ms
